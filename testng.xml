@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FlyAwayTestSuite">
+
+	<test name="TestFlyAway">
+		<classes>
+			<class name="com.flyawayairlines.FlyAwayTest" /> 
+		</classes>	
+	</test> 
+	
+</suite> <!-- Suite -->		

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FlyAwayTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestFlyAway(failed)">
+    <classes>
+      <class name="com.flyawayairlines.FlyAwayTest">
+        <methods>
+          <include name="verifyBookingConfirmation"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="verifySearchFlight"/>
+          <include name="verifyPaymentGateway"/>
+          <include name="verifyRegistrationPage"/>
+        </methods>
+      </class> <!-- com.flyawayairlines.FlyAwayTest -->
+    </classes>
+  </test> <!-- TestFlyAway(failed) -->
+</suite> <!-- Failed suite [FlyAwayTestSuite] -->

@@ -1,0 +1,188 @@
+<html>
+<head>
+<title>TestNG:  TestFlyAway</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestFlyAway</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>9/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 21 15:42:55 GMT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22727 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.testLoginApi()'><b>testLoginApi</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-1388602164" onClick='toggleBox("Output-1388602164", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1388602164" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1388602164">
+Login page endpoint verified<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.verifySearchFlight()'><b>verifySearchFlight</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-248050873" onClick='toggleBox("Output-248050873", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-248050873" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-248050873">
+Booking flight using source and destination verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.testSearchFlightApi()'><b>testSearchFlightApi</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-1032689422" onClick='toggleBox("Output-1032689422", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1032689422" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1032689422">
+Search Flight page endpoint verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.verifyRegistrationPage()'><b>verifyRegistrationPage</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-1465126864" onClick='toggleBox("Output-1465126864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1465126864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1465126864">
+Registration page verified<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.verifyPaymentGateway()'><b>verifyPaymentGateway</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-1888952688" onClick='toggleBox("Output-1888952688", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1888952688" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1888952688">
+Payment gateway verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.verifyBookingConfirmation()'><b>verifyBookingConfirmation</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-1219797059" onClick='toggleBox("Output-1219797059", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1219797059" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1219797059">
+Booking confirmed<br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.verifyAppUrl()'><b>verifyAppUrl</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-1682157864" onClick='toggleBox("Output-1682157864", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1682157864" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1682157864">
+App Url verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.verifyLogin()'><b>verifyLogin</b><br>Test class: com.flyawayairlines.FlyAwayTest<br>Parameters: amit@amit.com, aaaaaa<br/>
+<a href="#Output-527464124" onClick='toggleBox("Output-527464124", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-527464124" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-527464124">
+New user registration verified<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+<tr>
+<td title='com.flyawayairlines.FlyAwayTest.verifySearchFlightPage()'><b>verifySearchFlightPage</b><br>Test class: com.flyawayairlines.FlyAwayTest<br/>
+<a href="#Output-1626800713" onClick='toggleBox("Output-1626800713", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1626800713" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1626800713">
+Search Flight page verified<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.flyawayairlines.FlyAwayTest@12468a38</td></tr>
+</table><p>
+</body>
+</html>

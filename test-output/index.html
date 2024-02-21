@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-FlyAwayTestSuite" class="navigator-link">
+              <span class="suite-name border-passed">FlyAwayTestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-FlyAwayTestSuite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-FlyAwayTestSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-FlyAwayTestSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-FlyAwayTestSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-FlyAwayTestSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-FlyAwayTestSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-FlyAwayTestSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-FlyAwayTestSuite" class="hide-methods passed suite-FlyAwayTestSuite"> (hide)</a> <!-- hide-methods passed suite-FlyAwayTestSuite -->
+                      <a href="#" panel-name="suite-FlyAwayTestSuite" class="show-methods passed suite-FlyAwayTestSuite"> (show)</a> <!-- show-methods passed suite-FlyAwayTestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-FlyAwayTestSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="testLoginApi">testLoginApi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="testSearchFlightApi">testSearchFlightApi</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="verifyAppUrl">verifyAppUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="verifyBookingConfirmation">verifyBookingConfirmation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="verifyLogin(amit@amit.com, aaaaaa)">verifyLogin(amit@amit.com, aaaaaa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="verifyPaymentGateway">verifyPaymentGateway</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="verifyRegistrationPage">verifyRegistrationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="verifySearchFlight">verifySearchFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-FlyAwayTestSuite" title="com.flyawayairlines.FlyAwayTest" class="method navigator-link" hash-for-method="verifySearchFlightPage">verifySearchFlightPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-FlyAwayTestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-FlyAwayTestSuite" class="panel FlyAwayTestSuite">
+          <div class="suite-FlyAwayTestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.flyawayairlines.FlyAwayTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginApi">
+                  </a> <!-- testLoginApi -->
+                  <span class="method-name">testLoginApi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchFlightApi">
+                  </a> <!-- testSearchFlightApi -->
+                  <span class="method-name">testSearchFlightApi</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAppUrl">
+                  </a> <!-- verifyAppUrl -->
+                  <span class="method-name">verifyAppUrl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookingConfirmation">
+                  </a> <!-- verifyBookingConfirmation -->
+                  <span class="method-name">verifyBookingConfirmation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogin(amit@amit.com, aaaaaa)">
+                  </a> <!-- verifyLogin(amit@amit.com, aaaaaa) -->
+                  <span class="method-name">verifyLogin</span>
+                  <span class="parameters">(amit@amit.com,aaaaaa)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPaymentGateway">
+                  </a> <!-- verifyPaymentGateway -->
+                  <span class="method-name">verifyPaymentGateway</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRegistrationPage">
+                  </a> <!-- verifyRegistrationPage -->
+                  <span class="method-name">verifyRegistrationPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFlight">
+                  </a> <!-- verifySearchFlight -->
+                  <span class="method-name">verifySearchFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFlightPage">
+                  </a> <!-- verifySearchFlightPage -->
+                  <span class="method-name">verifySearchFlightPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-FlyAwayTestSuite-class-passed -->
+        </div> <!-- panel FlyAwayTestSuite -->
+        <div panel-name="test-xml-FlyAwayTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/zane/Documents/RestAssuredProjects/flyawayairlines/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;FlyAwayTestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestFlyAway&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.flyawayairlines.FlyAwayTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestFlyAway --&gt;
+&lt;/suite&gt; &lt;!-- FlyAwayTestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-FlyAwayTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for FlyAwayTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestFlyAway (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-FlyAwayTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for FlyAwayTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-FlyAwayTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for FlyAwayTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_FlyAwayTestSuite');
+function tableData_FlyAwayTestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyBookingConfirmation')
+data.setCell(0, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(0, 3, 12202);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyRegistrationPage')
+data.setCell(1, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(1, 3, 3573);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySearchFlightPage')
+data.setCell(2, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(2, 3, 2228);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testLoginApi')
+data.setCell(3, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(3, 3, 1829);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLogin')
+data.setCell(4, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(4, 3, 834);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySearchFlight')
+data.setCell(5, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(5, 3, 572);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyAppUrl')
+data.setCell(6, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(6, 3, 269);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testSearchFlightApi')
+data.setCell(7, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(7, 3, 108);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyPaymentGateway')
+data.setCell(8, 2, 'com.flyawayairlines.FlyAwayTest')
+data.setCell(8, 3, 71);
+window.suiteTableData['FlyAwayTestSuite']= { tableData: data, tableDiv: 'times-div-FlyAwayTestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-FlyAwayTestSuite">
+              </div> <!-- times-div-FlyAwayTestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-FlyAwayTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for FlyAwayTestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testLoginApi</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Login page endpoint verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySearchFlight</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Booking flight using source and destination verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testSearchFlightApi</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Search Flight page endpoint verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyRegistrationPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Registration page verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyPaymentGateway</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Payment gateway verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyBookingConfirmation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Booking confirmed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAppUrl</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">App Url verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLogin(amit@amit.com, aaaaaa)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">New user registration verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySearchFlightPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Search Flight page verified</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-FlyAwayTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-FlyAwayTestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.flyawayairlines.FlyAwayTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">verifyAppUrl</span>
+                <span class="method-start">4732 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyRegistrationPage</span>
+                <span class="method-start">5018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLogin(amit@amit.com, aaaaaa)</span>
+                <span class="method-start">9562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFlightPage</span>
+                <span class="method-start">10400 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFlight</span>
+                <span class="method-start">12631 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPaymentGateway</span>
+                <span class="method-start">13208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookingConfirmation</span>
+                <span class="method-start">13281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLoginApi</span>
+                <span class="method-start">25486 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearchFlightApi</span>
+                <span class="method-start">27318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">27531 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
