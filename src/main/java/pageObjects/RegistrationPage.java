@@ -22,7 +22,7 @@ public class RegistrationPage{
 		signUpLink.click();
 		
 		WebElement email = driver.findElement(By.xpath("//input[@name='email_id']"));
-		email.sendKeys("p40.iyaji@gmail.com");
+		email.sendKeys("p43.iyaji@gmail.com");
 		
 		WebElement pwd = driver.findElement(By.xpath("//input[@name = 'pwd']"));
 		pwd.sendKeys("admin123");
