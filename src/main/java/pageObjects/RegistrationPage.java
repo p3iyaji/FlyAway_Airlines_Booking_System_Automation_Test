@@ -8,6 +8,12 @@ import org.openqa.selenium.WebElement;
 public class RegistrationPage{
 	
 	WebDriver driver;
+	public String email_id = "p50.iyaji@gmail.com";
+	public String password = "admin123";
+	public String password2 = "admin123";
+	public String fullname = "Paul Iyaji";
+	public String fulladdress = "19 Thirly";
+	public String city_id = "Darlington";
 	
 	public void setupDriver(WebDriver driver) {
 		this.driver = driver;
@@ -22,21 +28,21 @@ public class RegistrationPage{
 		signUpLink.click();
 		
 		WebElement email = driver.findElement(By.xpath("//input[@name='email_id']"));
-		email.sendKeys("p43.iyaji@gmail.com");
+		email.sendKeys(email_id);
 		
 		WebElement pwd = driver.findElement(By.xpath("//input[@name = 'pwd']"));
-		pwd.sendKeys("admin123");
+		pwd.sendKeys(password);
 		WebElement pwd2 = driver.findElement(By.xpath("//input[@name = 'pwd2']"));
-		pwd2.sendKeys("admin123");
+		pwd2.sendKeys(password2);
 		
 		WebElement name = driver.findElement(By.xpath("//input[@name = 'name']"));
-		name.sendKeys("Paul Iyaji");
+		name.sendKeys(fullname);
 		
 		WebElement address = driver.findElement(By.xpath("//input[@name = 'address']"));
-		address.sendKeys("19 Thirly");
+		address.sendKeys(fulladdress);
 		
 		WebElement city = driver.findElement(By.xpath("//input[@name = 'city']"));
-		city.sendKeys("Darlington");
+		city.sendKeys(city_id);
 		
 		WebElement signupBtn = driver.findElement(By.xpath("//button[normalize-space()='Signup']"));
 		signupBtn.click();

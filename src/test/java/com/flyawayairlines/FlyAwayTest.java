@@ -36,7 +36,6 @@ public class FlyAwayTest extends LibDriver {
 	  LoginPage loginurl = new LoginPage();
 	  SearchFlightPage searchPage = new SearchFlightPage();
 	  BookingConfirmation booking = new BookingConfirmation();
-
 	  
 	  
   @BeforeSuite
@@ -62,7 +61,13 @@ public class FlyAwayTest extends LibDriver {
 	  register.getSignup();
 	  try {
 		  Thread.sleep(2000);
+		  
 		  String confirmationPageTitle = driver.getTitle();
+		  String api = driver.getCurrentUrl();
+		  Response response = RestAssured.get(api);
+		  System.out.println("Registration was successful with status code: "+response.statusCode());
+		  System.out.println(api);
+		  
 		  String expectedTitle = "Fly Away - Registration Confirmation";
 		  Assert.assertEquals(confirmationPageTitle, expectedTitle);
 	  }catch(Exception e) {

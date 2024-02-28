@@ -32,30 +32,30 @@
       <![CDATA[Application closed]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-02-21T15:42:55 GMT" name="FlyAwayTestSuite" finished-at="2024-02-21T15:43:18 GMT" duration-ms="22727">
+  <suite started-at="2024-02-28T11:33:20 GMT" name="Default suite" finished-at="2024-02-28T11:33:43 GMT" duration-ms="23774">
     <groups>
     </groups>
-    <test started-at="2024-02-21T15:42:55 GMT" name="TestFlyAway" finished-at="2024-02-21T15:43:18 GMT" duration-ms="22727">
+    <test started-at="2024-02-28T11:33:20 GMT" name="Default test" finished-at="2024-02-28T11:33:43 GMT" duration-ms="23774">
       <class name="com.flyawayairlines.FlyAwayTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:42:51 GMT" name="setUp" finished-at="2024-02-21T15:42:55 GMT" duration-ms="4702" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:16 GMT" name="setUp" finished-at="2024-02-28T11:33:20 GMT" duration-ms="3493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAppUrl()[pri:0, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:42:55 GMT" name="verifyAppUrl" finished-at="2024-02-21T15:42:56 GMT" duration-ms="269" status="PASS">
+        <test-method signature="verifyAppUrl()[pri:0, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:20 GMT" name="verifyAppUrl" finished-at="2024-02-28T11:33:20 GMT" duration-ms="295" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[App Url verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyAppUrl -->
-        <test-method signature="verifyRegistrationPage()[pri:1, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:42:56 GMT" name="verifyRegistrationPage" finished-at="2024-02-21T15:42:59 GMT" duration-ms="3573" status="PASS">
+        <test-method signature="verifyRegistrationPage()[pri:1, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:20 GMT" name="verifyRegistrationPage" finished-at="2024-02-28T11:33:27 GMT" duration-ms="6502" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Registration page verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyRegistrationPage -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:2, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:00 GMT" name="verifyLogin" data-provider="CredentialSupplier" finished-at="2024-02-21T15:43:01 GMT" duration-ms="834" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:2, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:27 GMT" name="verifyLogin" data-provider="CredentialSupplier" finished-at="2024-02-28T11:33:28 GMT" duration-ms="535" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,49 +74,49 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method signature="verifySearchFlightPage()[pri:3, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:01 GMT" name="verifySearchFlightPage" finished-at="2024-02-21T15:43:03 GMT" duration-ms="2228" status="PASS">
+        <test-method signature="verifySearchFlightPage()[pri:3, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:28 GMT" name="verifySearchFlightPage" finished-at="2024-02-28T11:33:30 GMT" duration-ms="2276" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Search Flight page verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifySearchFlightPage -->
-        <test-method signature="verifySearchFlight()[pri:4, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:03 GMT" name="verifySearchFlight" finished-at="2024-02-21T15:43:04 GMT" duration-ms="572" status="PASS">
+        <test-method signature="verifySearchFlight()[pri:4, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:30 GMT" name="verifySearchFlight" finished-at="2024-02-28T11:33:31 GMT" duration-ms="659" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Booking flight using source and destination verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifySearchFlight -->
-        <test-method signature="verifyPaymentGateway()[pri:5, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:04 GMT" name="verifyPaymentGateway" finished-at="2024-02-21T15:43:04 GMT" duration-ms="71" status="PASS">
+        <test-method signature="verifyPaymentGateway()[pri:5, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:31 GMT" name="verifyPaymentGateway" finished-at="2024-02-28T11:33:31 GMT" duration-ms="48" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Payment gateway verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyPaymentGateway -->
-        <test-method signature="verifyBookingConfirmation()[pri:6, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:04 GMT" name="verifyBookingConfirmation" finished-at="2024-02-21T15:43:16 GMT" duration-ms="12202" status="PASS">
+        <test-method signature="verifyBookingConfirmation()[pri:6, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:31 GMT" name="verifyBookingConfirmation" finished-at="2024-02-28T11:33:43 GMT" duration-ms="12255" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Booking confirmed]]>
             </line>
           </reporter-output>
         </test-method> <!-- verifyBookingConfirmation -->
-        <test-method signature="testLoginApi()[pri:7, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:16 GMT" name="testLoginApi" finished-at="2024-02-21T15:43:18 GMT" duration-ms="1829" status="PASS">
+        <test-method signature="testLoginApi()[pri:7, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:43 GMT" name="testLoginApi" finished-at="2024-02-28T11:33:43 GMT" duration-ms="77" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login page endpoint verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- testLoginApi -->
-        <test-method signature="testSearchFlightApi()[pri:8, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:18 GMT" name="testSearchFlightApi" finished-at="2024-02-21T15:43:18 GMT" duration-ms="108" status="PASS">
+        <test-method signature="testSearchFlightApi()[pri:8, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:43 GMT" name="testSearchFlightApi" finished-at="2024-02-28T11:33:43 GMT" duration-ms="173" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Search Flight page endpoint verified]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSearchFlightApi -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.flyawayairlines.FlyAwayTest@12468a38]" started-at="2024-02-21T15:43:18 GMT" name="afterSuite" finished-at="2024-02-21T15:43:18 GMT" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.flyawayairlines.FlyAwayTest@1aa7ecca]" started-at="2024-02-28T11:33:44 GMT" name="afterSuite" finished-at="2024-02-28T11:33:44 GMT" duration-ms="296" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Application closed]]>
@@ -124,6 +124,6 @@
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- com.flyawayairlines.FlyAwayTest -->
-    </test> <!-- TestFlyAway -->
-  </suite> <!-- FlyAwayTestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
