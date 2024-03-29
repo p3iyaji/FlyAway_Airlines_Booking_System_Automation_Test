@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 public class RegistrationPage{
 	
 	WebDriver driver;
-	public String email_id = "p66.iyaji@gmail.com";
+	public String email_id = "p67.iyaji@gmail.com";
 	public String password = "admin123";
 	public String password2 = "admin123";
 	public String fullname = "Paul Iyaji";
